@@ -1,5 +1,0 @@
-# Normalize text files automatically
-* text=auto
-
-# Keep HDL sources in LF to avoid Windows CRLF churn
-*.v text eol=lf
