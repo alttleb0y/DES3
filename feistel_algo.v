@@ -5,7 +5,7 @@ module feistel_algo #(
 );
     input [WIDTH/2-1:0] ldata, rdata;
     input clk;
-    input [2:0] feistel_state;
+    input [3:0] feistel_state;
     output [WIDTH/2-1:0] odata;
     
     wire [WIDTH/2-1:0] L0, R0, L1, R1, L2, R2, L3, R3, L4, R4, L5, R5, L6, R6, L7, R7,
