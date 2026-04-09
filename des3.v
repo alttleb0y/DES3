@@ -1,33 +1,48 @@
 module des3 #(
 	parameter WIDTH = 64;
-) (
-	idata, reset, odata
-);
-	input [WIDTH-1:0] idata;
+) ();
+
+	input clk;
 	input reset;
+	input [WIDTH-1:0] idata;
+	input [WIDTH-1:0] key1, key2, key3;
+	input valid_in;
 	output [WIDTH-1:0] odata;
+	output valid_out;
 
-	reg [2:0] feistel_state;
-    reg [1:0] des_state;
-    reg [WIDTH-1:0] IP_data;
-	wire clk;
+	wire [WIDTH-1:0] encrypt1_odata;
+	wire [WIDTH-1:0] decrypt2_odata;
+	wire encrypt1_valid_out;
+	wire decrypt2_valid_out;
+
+	feistel_algo encrypt1 #(.WIDTH(WIDTH)) 
+	(.clk(clk),
+	 .reset(reset), 
+	 .idata(idata), 
+	 .key_in(key1), 
+	 .decrypt(1'b0), 
+	 .valid_in(valid_in), 
+	 .odata(encrypt1_odata), 
+	 .valid_out(encrypt1_valid_out));
+
+	feistel_algo decrypt2 #(.WIDTH(WIDTH)) 
+	(.clk(clk),
+	 .reset(reset),
+	 .idata(encrypt1_odata),
+	 .key_in(key2),
+	 .decrypt(1'b1),
+	 .valid_in(encrypt1_valid_out),
+	 .odata(decrypt2_odata),
+	 .valid_out(decrypt2_valid_out));
 	
-	
-	des_stage des_stage0(.clk(clk), .reset(reset), .des_stage(des_state), .feistel_stage(feistel_state));
-
-    assign des_state = 2'b00;
-    assign feistel_state = 4'b0000;
-    assign IP_data = WIDTH'b0;
-
-	always@(posedge clk or posedge reset) begin
-		if (reset) begin
-			
-		end 
-		else begin
-			
-		end
-	end
-    
-	assign odata = IP_inv_data;
+	feistel_algo encrypt3 #(.WIDTH(WIDTH)) 
+	(.clk(clk),
+	 .reset(reset),
+	 .idata(decrypt2_odata), 
+	 .key_in(key3), 
+	 .decrypt(1'b0), 
+	 .valid_in(decrypt2_valid_out), 
+	 .odata(odata), 
+	 .valid_out(valid_out));
   
 endmodule
