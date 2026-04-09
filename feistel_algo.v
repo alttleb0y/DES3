@@ -1,27 +1,60 @@
 module feistel_algo #(
-    parameter WIDTH = 64;
+    parameter WIDTH = 64
 )(
-    clk, feistel_state, ldata, rdata, odata
+    clk, reset, idata, key_in, valid_in, odata, valid_out
 );
-    input [WIDTH/2-1:0] ldata, rdata;
     input clk;
-    input [3:0] feistel_state;
-    output [WIDTH/2-1:0] odata;
-    
-    wire [WIDTH/2-1:0] L0, R0, L1, R1, L2, R2, L3, R3, L4, R4, L5, R5, L6, R6, L7, R7,
-                        L8, R8, L9, R9, L10, R10, L11, R11, L12, R12, L13, R13, L14, R14, L15, R15;
+    input reset;
+    input [WIDTH-1:0] idata;
+    input [WIDTH-1:0] key_in;
+    input valid_in;
+    output reg [WIDTH-1:0] odata;
+    output reg valid_out;
 
-    key_scheduler iKS(.feistel_state(feistel_state), .idata({L0, R0}), .odata(K));
-    always @(posedge clk) begin
-        case(feistel_state)
-            4'b0000 : begin
-                IP iIP(.idata({ldata, rdata}), .odata({L0, R0}));
-                E iE(.in(R0), .out(R0_E));
-                S iS(.in(R0_E ^ K), .out(S_out));
-                P iP(.in(S_out), .out(P_out));
-                assign R1 = L0 ^ P_out;
-                assign L1 = R0;
+    reg [31:0] L [15:0];
+    reg [31:0] R [15:0];
+    reg [15:0] V;
+    wire [47:0] K [15:0];
+    wire [63:0] ip_out;
+    wire [63:0] ip_inv_out;
+    wire [31:0] f_out [15:0];
+    
+    IP ip(.in(idata), .out(ip_out));
+    IP_inv ip_inv(.in({R[15], L[15]}), .out(ip_inv_out));
+    
+    generate
+        genvar g;
+        for(g = 0; g < 16; g++) begin : key_gen
+            key_scheduler ks(.feistel_state(g[i]), .key_in(key_in), .K_out(K[g]));
+            f f_inst (.R(R[g]), .K(K[g]), .out(f_out[g]));
+        end
+    endgenerate
+
+    integer i;
+    always @(posedge clk or posedge reset) begin
+        if(reset) begin
+            V[17:0] <= 18'b0;
+            odata <= 64'b0;
+            valid_out <= 1'b0;
+            for(i = 0; i < 16; i = i + 1) begin : pipeline_reset
+                L[i] <= 32'b0;
+                R[i] <= 32'b0;
             end
-        endcase
+        end
+        else begin
+            L[0][31:0] <= ip_out[63:32];
+            R[0][31:0] <= ip_out[31:0];
+            V[0] <= valid_in;
+
+            for(i = 1; i < 15; i = i + 1) begin : pipeline_compute
+                L[i] <= R[i-1];
+                R[i] <= L[i-1] ^ f_out[i-1];
+                V[i] <= V[i-1];
+            end
+
+            odata <= ip_inv_out;
+            valid_out <= V[15];
+        end
     end
+
 endmodule
