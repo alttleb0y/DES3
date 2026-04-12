@@ -1,6 +1,6 @@
 module des3 #(
 	parameter WIDTH = 64
-) ();
+) (clk, reset, idata, key1, key2, key3, valid_in, odata, valid_out);
 
 	input clk;
 	input reset;

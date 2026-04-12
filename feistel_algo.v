@@ -25,7 +25,7 @@ module feistel_algo #(
     
     generate
         genvar g;
-        for(g = 0; g < 16; g++) begin : key_gen
+        for(g = 0; g < 16; g = g + 1) begin : key_gen
             key_scheduler ks(.feistel_state(g[3:0]), .key_in(key_in), .decrypt(decrypt), .K_out(K[g]));
             f f_inst (.R(R[g]), .K(K[g]), .out(f_out[g]));
         end
