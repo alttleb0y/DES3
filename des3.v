@@ -1,5 +1,5 @@
 module des3 #(
-	parameter WIDTH = 64;
+	parameter WIDTH = 64
 ) ();
 
 	input clk;
@@ -15,7 +15,7 @@ module des3 #(
 	wire encrypt1_valid_out;
 	wire decrypt2_valid_out;
 
-	feistel_algo encrypt1 #(.WIDTH(WIDTH)) 
+	feistel_algo #(.WIDTH(WIDTH)) encrypt1 
 	(.clk(clk),
 	 .reset(reset), 
 	 .idata(idata), 
@@ -25,7 +25,7 @@ module des3 #(
 	 .odata(encrypt1_odata), 
 	 .valid_out(encrypt1_valid_out));
 
-	feistel_algo decrypt2 #(.WIDTH(WIDTH)) 
+	feistel_algo #(.WIDTH(WIDTH)) decrypt2 
 	(.clk(clk),
 	 .reset(reset),
 	 .idata(encrypt1_odata),
@@ -35,7 +35,7 @@ module des3 #(
 	 .odata(decrypt2_odata),
 	 .valid_out(decrypt2_valid_out));
 	
-	feistel_algo encrypt3 #(.WIDTH(WIDTH)) 
+	feistel_algo #(.WIDTH(WIDTH)) encrypt3 
 	(.clk(clk),
 	 .reset(reset),
 	 .idata(decrypt2_odata), 

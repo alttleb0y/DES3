@@ -1,7 +1,7 @@
 module key_scheduler #(
     parameter WIDTH = 64
 )(
-    feistel_state, key_in, K_out
+    feistel_state, key_in, decrypt, K_out
 );
     input [WIDTH-1:0] key_in;
     input [3:0] feistel_state;
@@ -36,7 +36,7 @@ module key_scheduler #(
 
     always @(*) begin
         if(!decrypt) begin
-            case(feistel_state):
+            case(feistel_state)
                 4'd0: shift = 5'd1;
                 4'd1: shift = 5'd2;
                 4'd2: shift = 5'd4;
@@ -57,7 +57,7 @@ module key_scheduler #(
             endcase
         end
         else begin
-            case(feistel_state):
+            case(feistel_state)
                 4'd0: shift = 5'd28;
                 4'd1: shift = 5'd27;
                 4'd2: shift = 5'd25;

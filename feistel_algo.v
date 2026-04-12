@@ -1,19 +1,20 @@
 module feistel_algo #(
     parameter WIDTH = 64
 )(
-    clk, reset, idata, key_in, valid_in, odata, valid_out
+    clk, reset, idata, key_in, decrypt, valid_in, odata, valid_out
 );
     input clk;
     input reset;
     input [WIDTH-1:0] idata;
     input [WIDTH-1:0] key_in;
+    input decrypt;
     input valid_in;
     output reg [WIDTH-1:0] odata;
     output reg valid_out;
 
     reg [31:0] L [15:0];
     reg [31:0] R [15:0];
-    reg [15:0] V;
+    reg [17:0] V;
     wire [47:0] K [15:0];
     wire [63:0] ip_out;
     wire [63:0] ip_inv_out;
@@ -25,7 +26,7 @@ module feistel_algo #(
     generate
         genvar g;
         for(g = 0; g < 16; g++) begin : key_gen
-            key_scheduler ks(.feistel_state(g[i]), .key_in(key_in), .K_out(K[g]));
+            key_scheduler ks(.feistel_state(g[3:0]), .key_in(key_in), .decrypt(decrypt), .K_out(K[g]));
             f f_inst (.R(R[g]), .K(K[g]), .out(f_out[g]));
         end
     endgenerate
@@ -46,7 +47,7 @@ module feistel_algo #(
             R[0][31:0] <= ip_out[31:0];
             V[0] <= valid_in;
 
-            for(i = 1; i < 15; i = i + 1) begin : pipeline_compute
+            for(i = 1; i < 16; i = i + 1) begin : pipeline_compute
                 L[i] <= R[i-1];
                 R[i] <= L[i-1] ^ f_out[i-1];
                 V[i] <= V[i-1];
@@ -56,5 +57,5 @@ module feistel_algo #(
             valid_out <= V[15];
         end
     end
-
+    
 endmodule
