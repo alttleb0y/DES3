@@ -19,6 +19,7 @@ module top();
         $readmemb("key123.txt", memory_key);
         outfile = $fopen("output.txt", "w");
 
+
         $display("Initial idata: %b", memory_idata[0]);
         $display("Initial key1: %b", memory_key[0]);
         $display("Initial key2: %b", memory_key[1]);
