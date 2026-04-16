@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="3DES">
+		<CBX_INST_ENTRY INSTANCE_NAME="|des3|feistel_algo:decrypt2|altshift_taps:L16_rtl_0" CBX_FILE_NAME="shift_taps_ghm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

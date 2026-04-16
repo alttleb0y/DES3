@@ -1,0 +1,804 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do 3DES_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/S8.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S8
+# 
+# Top level modules:
+# 	S8
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/S7.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S7
+# 
+# Top level modules:
+# 	S7
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/S6.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S6
+# 
+# Top level modules:
+# 	S6
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/S5.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S5
+# 
+# Top level modules:
+# 	S5
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/S4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S4
+# 
+# Top level modules:
+# 	S4
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/S3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S3
+# 
+# Top level modules:
+# 	S3
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/S2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S2
+# 
+# Top level modules:
+# 	S2
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/S1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S1
+# 
+# Top level modules:
+# 	S1
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/S.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S
+# 
+# Top level modules:
+# 	S
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/key_scheduler.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module key_scheduler
+# 
+# Top level modules:
+# 	key_scheduler
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/IP_inv.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IP_inv
+# 
+# Top level modules:
+# 	IP_inv
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/IP.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IP
+# 
+# Top level modules:
+# 	IP
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/feistel_algo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module feistel_algo
+# 
+# Top level modules:
+# 	feistel_algo
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/f.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module f
+# 
+# Top level modules:
+# 	f
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/E.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module E
+# 
+# Top level modules:
+# 	E
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/DES3 {C:/HK6/CE213/3DES/DES3/des3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module des3
+# 
+# Top level modules:
+# 	des3
+# 
+# vlog -vlog01compat -work work +incdir+C:/HK6/CE213/3DES/quartus/../DES3 {C:/HK6/CE213/3DES/quartus/../DES3/top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  top
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps top 
+# Loading work.top
+# Loading work.des3
+# Loading work.feistel_algo
+# Loading work.IP
+# Loading work.IP_inv
+# Loading work.key_scheduler
+# Loading work.f
+# Loading work.E
+# Loading work.S
+# Loading work.S1
+# Loading work.S2
+# Loading work.S3
+# Loading work.S4
+# Loading work.S5
+# Loading work.S6
+# Loading work.S7
+# Loading work.S8
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[0]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[1]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[2]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[3]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[4]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[5]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[6]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[7]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[8]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[9]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[10]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[11]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[12]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[13]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[14]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[15]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[0]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[1]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[2]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[3]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[4]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[5]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[6]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[7]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[8]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[9]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[10]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[11]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[12]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[13]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[14]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[15]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[0]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[1]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[2]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[3]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[4]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[5]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[6]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[7]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[8]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[9]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[10]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[11]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[12]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[13]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[14]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[15]/f_inst/p
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Initial idata: 0111001101101111011011010110010101100100011000010111010001100001
+# Initial key1: 0000000100100011010001010110011110001001101010111100110111101111
+# Initial key2: 0000000100100011010001010110011110001001101010111100110111101111
+# Initial key3: 0000000100100011010001010110011110001001101010111100110111101111
+# At time                    0: odata = 0000000000000000000000000000000000000000000000000000000000000000, valid_out = 0
+# At time                   30: odata = 0x0001000x0000000x0000010x0001000x0x00000x0x01000x0x00010x0x0100, valid_out = 0
+# At time                   50: odata = xx101100xx101100xx100111xx001100xxxx1000xxxx1101xxxx0011xxxx1110, valid_out = 0
+# At time                   70: odata = xx101001xx100000xx101010xx001000xxxx1011xxxx1010xxxx0011xxxx1011, valid_out = 0
+# At time                   90: odata = xx100111xx100000xx100100xx000110xxxx1010xxxx1011xxxx1010xxxx1011, valid_out = 0
+# At time                  110: odata = xx110101xx111011xx111000xx000110xxxx1001xxxx1101xxxx1101xxxx1110, valid_out = 0
+# At time                  130: odata = xx010100xx010000xx011000xx000100xxxx0000xxxx1101xxxx1110xxxx0101, valid_out = 0
+# At time                  150: odata = xx001000xx001110xx011001xx011000xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  170: odata = xx000111xx001111xx111010xx011101xxxx0100xxxx1100xxxx0010xxxx1110, valid_out = 0
+# At time                  190: odata = xx000110xx011110xx101011xx011101xxxx0101xxxx1100xxxx0001xxxx1100, valid_out = 0
+# At time                  210: odata = xx101011xx010011xx100010xx110001xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  230: odata = xx101111xx011001xx111111xx100101xxxx0010xxxx1000xxxx1111xxxx0010, valid_out = 0
+# At time                  250: odata = xx100100xx010110xx111000xx000100xxxx1001xxxx1000xxxx0100xxxx0010, valid_out = 0
+# At time                  270: odata = xx101101xx001101xx100011xx001001xxxx1000xxxx1111xxxx0100xxxx0001, valid_out = 0
+# At time                  290: odata = xx001011xx001101xx100110xx001101xxxx1011xxxx1110xxxx0101xxxx0000, valid_out = 0
+# At time                  310: odata = xx011110xx001001xx100101xx000110xxxx1110xxxx1001xxxx0010xxxx0101, valid_out = 0
+# At time                  330: odata = xx110010xx101010xx100011xx100001xxxx0111xxxx1000xxxx1000xxxx1101, valid_out = 0
+# At time                  390: odata = xx011110xx001001xx100101xx000110xxxx1110xxxx1001xxxx0010xxxx0101, valid_out = 0
+# At time                  410: odata = xx001011xx001101xx100110xx001101xxxx1011xxxx1110xxxx0101xxxx0000, valid_out = 0
+# At time                  430: odata = xx101101xx001101xx100011xx001001xxxx1000xxxx1111xxxx0100xxxx0001, valid_out = 0
+# At time                  450: odata = xx100100xx010110xx111000xx000100xxxx1001xxxx1000xxxx0100xxxx0010, valid_out = 0
+# At time                  470: odata = xx101111xx011001xx111111xx100101xxxx0010xxxx1000xxxx1111xxxx0010, valid_out = 0
+# At time                  490: odata = xx101011xx010011xx100010xx110001xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  510: odata = xx000110xx011110xx101011xx011101xxxx0101xxxx1100xxxx0001xxxx1100, valid_out = 0
+# At time                  530: odata = xx000111xx001111xx111010xx011101xxxx0100xxxx1100xxxx0010xxxx1110, valid_out = 0
+# At time                  550: odata = xx001000xx001110xx011001xx011000xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  570: odata = xx010100xx010000xx011000xx000100xxxx0000xxxx1101xxxx1110xxxx0101, valid_out = 0
+# At time                  590: odata = xx110101xx111011xx111000xx000110xxxx1001xxxx1101xxxx1101xxxx1110, valid_out = 0
+# At time                  610: odata = xx100111xx100000xx100100xx000110xxxx1010xxxx1011xxxx1010xxxx1011, valid_out = 0
+# At time                  630: odata = xx101001xx100000xx101010xx001000xxxx1011xxxx1010xxxx0011xxxx1011, valid_out = 0
+# At time                  650: odata = xx101100xx101100xx100111xx001100xxxx1000xxxx1101xxxx0011xxxx1110, valid_out = 0
+# At time                  670: odata = xx000100xx000000xx000001xx000100xxxx0000xxxx0100xxxx0001xxxx0100, valid_out = 0
+# At time                  690: odata = xx000000xx000000xx000000xx000000xxxx0000xxxx0000xxxx0000xxxx0000, valid_out = 0
+# At time                  750: odata = xx000100xx000000xx000001xx000100xxxx0000xxxx0100xxxx0001xxxx0100, valid_out = 0
+# At time                  770: odata = xx101100xx101100xx100111xx001100xxxx1000xxxx1101xxxx0011xxxx1110, valid_out = 0
+# At time                  790: odata = xx101001xx100000xx101010xx001000xxxx1011xxxx1010xxxx0011xxxx1011, valid_out = 0
+# At time                  810: odata = xx100111xx100000xx100100xx000110xxxx1010xxxx1011xxxx1010xxxx1011, valid_out = 0
+# At time                  830: odata = xx110101xx111011xx111000xx000110xxxx1001xxxx1101xxxx1101xxxx1110, valid_out = 0
+# At time                  850: odata = xx010100xx010000xx011000xx000100xxxx0000xxxx1101xxxx1110xxxx0101, valid_out = 0
+# At time                  870: odata = xx001000xx001110xx011001xx011000xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  890: odata = xx000111xx001111xx111010xx011101xxxx0100xxxx1100xxxx0010xxxx1110, valid_out = 0
+# At time                  910: odata = xx000110xx011110xx101011xx011101xxxx0101xxxx1100xxxx0001xxxx1100, valid_out = 0
+# At time                  930: odata = xx101011xx010011xx100010xx110001xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  950: odata = xx101111xx011001xx111111xx100101xxxx0010xxxx1000xxxx1111xxxx0010, valid_out = 0
+# At time                  970: odata = xx100100xx010110xx111000xx000100xxxx1001xxxx1000xxxx0100xxxx0010, valid_out = 0
+# At time                  990: odata = xx101101xx001101xx100011xx001001xxxx1000xxxx1111xxxx0100xxxx0001, valid_out = 0
+# At time                 1010: odata = xx001011xx001101xx100110xx001101xxxx1011xxxx1110xxxx0101xxxx0000, valid_out = 0
+# At time                 1030: odata = xx011110xx001001xx100101xx000110xxxx1110xxxx1001xxxx0010xxxx0101, valid_out = 0
+# At time                 1050: odata = xx110010xx101010xx100011xx100001xxxx0111xxxx1000xxxx1000xxxx1101, valid_out = 0
+# ** Note: $finish    : C:/HK6/CE213/3DES/quartus/../DES3/top.v(42)
+#    Time: 1070 ps  Iteration: 2  Instance: /top
+# 1
+# Break in Module top at C:/HK6/CE213/3DES/quartus/../DES3/top.v line 42
+# Simulation Breakpoint: 1
+# Break in Module top at C:/HK6/CE213/3DES/quartus/../DES3/top.v line 42
+# MACRO ./3DES_run_msim_rtl_verilog.do PAUSED at line 32
+add wave -position insertpoint {sim:/top/des3_inst/encrypt1/key_gen[0]/*}
+# (vish-4014) No objects found matching '/top/des3_inst/encrypt1/key_gen[0]/*'.
+add wave -position insertpoint  \
+{sim:/top/des3_inst/encrypt1/key_gen[0]/g}
+vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.top
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.top 
+# Loading work.top
+# Loading work.des3
+# Loading work.feistel_algo
+# Loading work.IP
+# Loading work.IP_inv
+# Loading work.key_scheduler
+# Loading work.f
+# Loading work.E
+# Loading work.S
+# Loading work.S1
+# Loading work.S2
+# Loading work.S3
+# Loading work.S4
+# Loading work.S5
+# Loading work.S6
+# Loading work.S7
+# Loading work.S8
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[0]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[1]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[2]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[3]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[4]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[5]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[6]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[7]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[8]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[9]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[10]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[11]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[12]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[13]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[14]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[15]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[0]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[1]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[2]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[3]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[4]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[5]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[6]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[7]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[8]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[9]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[10]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[11]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[12]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[13]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[14]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[15]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[0]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[1]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[2]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[3]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[4]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[5]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[6]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[7]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[8]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[9]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[10]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[11]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[12]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[13]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[14]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[15]/f_inst/p
+# WARNING: No extended dataflow license exists
+run -all
+# Initial idata: 0111001101101111011011010110010101100100011000010111010001100001
+# Initial key1: 0000000100100011010001010110011110001001101010111100110111101111
+# Initial key2: 0000000100100011010001010110011110001001101010111100110111101111
+# Initial key3: 0000000100100011010001010110011110001001101010111100110111101111
+# At time                    0: odata = 0000000000000000000000000000000000000000000000000000000000000000, valid_out = 0
+# At time                   30: odata = 0x0001000x0000000x0000010x0001000x0x00000x0x01000x0x00010x0x0100, valid_out = 0
+# At time                   50: odata = xx101100xx101100xx100111xx001100xxxx1000xxxx1101xxxx0011xxxx1110, valid_out = 0
+# At time                   70: odata = xx101001xx100000xx101010xx001000xxxx1011xxxx1010xxxx0011xxxx1011, valid_out = 0
+# At time                   90: odata = xx100111xx100000xx100100xx000110xxxx1010xxxx1011xxxx1010xxxx1011, valid_out = 0
+# At time                  110: odata = xx110101xx111011xx111000xx000110xxxx1001xxxx1101xxxx1101xxxx1110, valid_out = 0
+# At time                  130: odata = xx010100xx010000xx011000xx000100xxxx0000xxxx1101xxxx1110xxxx0101, valid_out = 0
+# At time                  150: odata = xx001000xx001110xx011001xx011000xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  170: odata = xx000111xx001111xx111010xx011101xxxx0100xxxx1100xxxx0010xxxx1110, valid_out = 0
+# At time                  190: odata = xx000110xx011110xx101011xx011101xxxx0101xxxx1100xxxx0001xxxx1100, valid_out = 0
+# At time                  210: odata = xx101011xx010011xx100010xx110001xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  230: odata = xx101111xx011001xx111111xx100101xxxx0010xxxx1000xxxx1111xxxx0010, valid_out = 0
+# At time                  250: odata = xx100100xx010110xx111000xx000100xxxx1001xxxx1000xxxx0100xxxx0010, valid_out = 0
+# At time                  270: odata = xx101101xx001101xx100011xx001001xxxx1000xxxx1111xxxx0100xxxx0001, valid_out = 0
+# At time                  290: odata = xx001011xx001101xx100110xx001101xxxx1011xxxx1110xxxx0101xxxx0000, valid_out = 0
+# At time                  310: odata = xx011110xx001001xx100101xx000110xxxx1110xxxx1001xxxx0010xxxx0101, valid_out = 0
+# At time                  330: odata = xx110010xx101010xx100011xx100001xxxx0111xxxx1000xxxx1000xxxx1101, valid_out = 0
+# At time                  390: odata = xx011110xx001001xx100101xx000110xxxx1110xxxx1001xxxx0010xxxx0101, valid_out = 0
+# At time                  410: odata = xx001011xx001101xx100110xx001101xxxx1011xxxx1110xxxx0101xxxx0000, valid_out = 0
+# At time                  430: odata = xx101101xx001101xx100011xx001001xxxx1000xxxx1111xxxx0100xxxx0001, valid_out = 0
+# At time                  450: odata = xx100100xx010110xx111000xx000100xxxx1001xxxx1000xxxx0100xxxx0010, valid_out = 0
+# At time                  470: odata = xx101111xx011001xx111111xx100101xxxx0010xxxx1000xxxx1111xxxx0010, valid_out = 0
+# At time                  490: odata = xx101011xx010011xx100010xx110001xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  510: odata = xx000110xx011110xx101011xx011101xxxx0101xxxx1100xxxx0001xxxx1100, valid_out = 0
+# At time                  530: odata = xx000111xx001111xx111010xx011101xxxx0100xxxx1100xxxx0010xxxx1110, valid_out = 0
+# At time                  550: odata = xx001000xx001110xx011001xx011000xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  570: odata = xx010100xx010000xx011000xx000100xxxx0000xxxx1101xxxx1110xxxx0101, valid_out = 0
+# At time                  590: odata = xx110101xx111011xx111000xx000110xxxx1001xxxx1101xxxx1101xxxx1110, valid_out = 0
+# At time                  610: odata = xx100111xx100000xx100100xx000110xxxx1010xxxx1011xxxx1010xxxx1011, valid_out = 0
+# At time                  630: odata = xx101001xx100000xx101010xx001000xxxx1011xxxx1010xxxx0011xxxx1011, valid_out = 0
+# At time                  650: odata = xx101100xx101100xx100111xx001100xxxx1000xxxx1101xxxx0011xxxx1110, valid_out = 0
+# At time                  670: odata = xx000100xx000000xx000001xx000100xxxx0000xxxx0100xxxx0001xxxx0100, valid_out = 0
+# At time                  690: odata = xx000000xx000000xx000000xx000000xxxx0000xxxx0000xxxx0000xxxx0000, valid_out = 0
+# At time                  750: odata = xx000100xx000000xx000001xx000100xxxx0000xxxx0100xxxx0001xxxx0100, valid_out = 0
+# At time                  770: odata = xx101100xx101100xx100111xx001100xxxx1000xxxx1101xxxx0011xxxx1110, valid_out = 0
+# At time                  790: odata = xx101001xx100000xx101010xx001000xxxx1011xxxx1010xxxx0011xxxx1011, valid_out = 0
+# At time                  810: odata = xx100111xx100000xx100100xx000110xxxx1010xxxx1011xxxx1010xxxx1011, valid_out = 0
+# At time                  830: odata = xx110101xx111011xx111000xx000110xxxx1001xxxx1101xxxx1101xxxx1110, valid_out = 0
+# At time                  850: odata = xx010100xx010000xx011000xx000100xxxx0000xxxx1101xxxx1110xxxx0101, valid_out = 0
+# At time                  870: odata = xx001000xx001110xx011001xx011000xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  890: odata = xx000111xx001111xx111010xx011101xxxx0100xxxx1100xxxx0010xxxx1110, valid_out = 0
+# At time                  910: odata = xx000110xx011110xx101011xx011101xxxx0101xxxx1100xxxx0001xxxx1100, valid_out = 0
+# At time                  930: odata = xx101011xx010011xx100010xx110001xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  950: odata = xx101111xx011001xx111111xx100101xxxx0010xxxx1000xxxx1111xxxx0010, valid_out = 0
+# At time                  970: odata = xx100100xx010110xx111000xx000100xxxx1001xxxx1000xxxx0100xxxx0010, valid_out = 0
+# At time                  990: odata = xx101101xx001101xx100011xx001001xxxx1000xxxx1111xxxx0100xxxx0001, valid_out = 0
+# At time                 1010: odata = xx001011xx001101xx100110xx001101xxxx1011xxxx1110xxxx0101xxxx0000, valid_out = 0
+# At time                 1030: odata = xx011110xx001001xx100101xx000110xxxx1110xxxx1001xxxx0010xxxx0101, valid_out = 0
+# At time                 1050: odata = xx110010xx101010xx100011xx100001xxxx0111xxxx1000xxxx1000xxxx1101, valid_out = 0
+# ** Note: $finish    : C:/HK6/CE213/3DES/quartus/../DES3/top.v(42)
+#    Time: 1070 ps  Iteration: 2  Instance: /top
+# 1
+# Break in Module top at C:/HK6/CE213/3DES/quartus/../DES3/top.v line 42
+vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.top
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.top 
+# Loading work.top
+# Loading work.des3
+# Loading work.feistel_algo
+# Loading work.IP
+# Loading work.IP_inv
+# Loading work.key_scheduler
+# Loading work.f
+# Loading work.E
+# Loading work.S
+# Loading work.S1
+# Loading work.S2
+# Loading work.S3
+# Loading work.S4
+# Loading work.S5
+# Loading work.S6
+# Loading work.S7
+# Loading work.S8
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[0]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[1]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[2]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[3]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[4]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[5]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[6]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[7]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[8]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[9]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[10]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[11]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[12]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[13]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[14]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt1/key_gen[15]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[0]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[1]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[2]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[3]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[4]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[5]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[6]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[7]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[8]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[9]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[10]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[11]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[12]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[13]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[14]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/decrypt2/key_gen[15]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[0]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[1]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[2]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[3]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[4]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[5]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[6]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[7]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[8]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[9]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[10]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[11]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[12]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[13]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[14]/f_inst/p
+# ** Warning: (vsim-3015) C:/HK6/CE213/3DES/DES3/f.v(10): [PCDPC] - Port size (48 or 48) does not match connection size (32) for port 'in'. The port definition is at: C:/HK6/CE213/3DES/DES3/S.v(1).
+# 
+#         Region: /top/des3_inst/encrypt3/key_gen[15]/f_inst/p
+add wave -position insertpoint  \
+{sim:/top/des3_inst/encrypt1/key_gen[0]/g}
+run -all
+# Initial idata: 0111001101101111011011010110010101100100011000010111010001100001
+# Initial key1: 0000000100100011010001010110011110001001101010111100110111101111
+# Initial key2: 0000000100100011010001010110011110001001101010111100110111101111
+# Initial key3: 0000000100100011010001010110011110001001101010111100110111101111
+# At time                    0: odata = 0000000000000000000000000000000000000000000000000000000000000000, valid_out = 0
+# At time                   30: odata = 0x0001000x0000000x0000010x0001000x0x00000x0x01000x0x00010x0x0100, valid_out = 0
+# At time                   50: odata = xx101100xx101100xx100111xx001100xxxx1000xxxx1101xxxx0011xxxx1110, valid_out = 0
+# At time                   70: odata = xx101001xx100000xx101010xx001000xxxx1011xxxx1010xxxx0011xxxx1011, valid_out = 0
+# At time                   90: odata = xx100111xx100000xx100100xx000110xxxx1010xxxx1011xxxx1010xxxx1011, valid_out = 0
+# At time                  110: odata = xx110101xx111011xx111000xx000110xxxx1001xxxx1101xxxx1101xxxx1110, valid_out = 0
+# At time                  130: odata = xx010100xx010000xx011000xx000100xxxx0000xxxx1101xxxx1110xxxx0101, valid_out = 0
+# At time                  150: odata = xx001000xx001110xx011001xx011000xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  170: odata = xx000111xx001111xx111010xx011101xxxx0100xxxx1100xxxx0010xxxx1110, valid_out = 0
+# At time                  190: odata = xx000110xx011110xx101011xx011101xxxx0101xxxx1100xxxx0001xxxx1100, valid_out = 0
+# At time                  210: odata = xx101011xx010011xx100010xx110001xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  230: odata = xx101111xx011001xx111111xx100101xxxx0010xxxx1000xxxx1111xxxx0010, valid_out = 0
+# At time                  250: odata = xx100100xx010110xx111000xx000100xxxx1001xxxx1000xxxx0100xxxx0010, valid_out = 0
+# At time                  270: odata = xx101101xx001101xx100011xx001001xxxx1000xxxx1111xxxx0100xxxx0001, valid_out = 0
+# At time                  290: odata = xx001011xx001101xx100110xx001101xxxx1011xxxx1110xxxx0101xxxx0000, valid_out = 0
+# At time                  310: odata = xx011110xx001001xx100101xx000110xxxx1110xxxx1001xxxx0010xxxx0101, valid_out = 0
+# At time                  330: odata = xx110010xx101010xx100011xx100001xxxx0111xxxx1000xxxx1000xxxx1101, valid_out = 0
+# At time                  390: odata = xx011110xx001001xx100101xx000110xxxx1110xxxx1001xxxx0010xxxx0101, valid_out = 0
+# At time                  410: odata = xx001011xx001101xx100110xx001101xxxx1011xxxx1110xxxx0101xxxx0000, valid_out = 0
+# At time                  430: odata = xx101101xx001101xx100011xx001001xxxx1000xxxx1111xxxx0100xxxx0001, valid_out = 0
+# At time                  450: odata = xx100100xx010110xx111000xx000100xxxx1001xxxx1000xxxx0100xxxx0010, valid_out = 0
+# At time                  470: odata = xx101111xx011001xx111111xx100101xxxx0010xxxx1000xxxx1111xxxx0010, valid_out = 0
+# At time                  490: odata = xx101011xx010011xx100010xx110001xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  510: odata = xx000110xx011110xx101011xx011101xxxx0101xxxx1100xxxx0001xxxx1100, valid_out = 0
+# At time                  530: odata = xx000111xx001111xx111010xx011101xxxx0100xxxx1100xxxx0010xxxx1110, valid_out = 0
+# At time                  550: odata = xx001000xx001110xx011001xx011000xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  570: odata = xx010100xx010000xx011000xx000100xxxx0000xxxx1101xxxx1110xxxx0101, valid_out = 0
+# At time                  590: odata = xx110101xx111011xx111000xx000110xxxx1001xxxx1101xxxx1101xxxx1110, valid_out = 0
+# At time                  610: odata = xx100111xx100000xx100100xx000110xxxx1010xxxx1011xxxx1010xxxx1011, valid_out = 0
+# At time                  630: odata = xx101001xx100000xx101010xx001000xxxx1011xxxx1010xxxx0011xxxx1011, valid_out = 0
+# At time                  650: odata = xx101100xx101100xx100111xx001100xxxx1000xxxx1101xxxx0011xxxx1110, valid_out = 0
+# At time                  670: odata = xx000100xx000000xx000001xx000100xxxx0000xxxx0100xxxx0001xxxx0100, valid_out = 0
+# At time                  690: odata = xx000000xx000000xx000000xx000000xxxx0000xxxx0000xxxx0000xxxx0000, valid_out = 0
+# At time                  750: odata = xx000100xx000000xx000001xx000100xxxx0000xxxx0100xxxx0001xxxx0100, valid_out = 0
+# At time                  770: odata = xx101100xx101100xx100111xx001100xxxx1000xxxx1101xxxx0011xxxx1110, valid_out = 0
+# At time                  790: odata = xx101001xx100000xx101010xx001000xxxx1011xxxx1010xxxx0011xxxx1011, valid_out = 0
+# At time                  810: odata = xx100111xx100000xx100100xx000110xxxx1010xxxx1011xxxx1010xxxx1011, valid_out = 0
+# At time                  830: odata = xx110101xx111011xx111000xx000110xxxx1001xxxx1101xxxx1101xxxx1110, valid_out = 0
+# At time                  850: odata = xx010100xx010000xx011000xx000100xxxx0000xxxx1101xxxx1110xxxx0101, valid_out = 0
+# At time                  870: odata = xx001000xx001110xx011001xx011000xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  890: odata = xx000111xx001111xx111010xx011101xxxx0100xxxx1100xxxx0010xxxx1110, valid_out = 0
+# At time                  910: odata = xx000110xx011110xx101011xx011101xxxx0101xxxx1100xxxx0001xxxx1100, valid_out = 0
+# At time                  930: odata = xx101011xx010011xx100010xx110001xxxx0100xxxx1111xxxx1011xxxx0110, valid_out = 0
+# At time                  950: odata = xx101111xx011001xx111111xx100101xxxx0010xxxx1000xxxx1111xxxx0010, valid_out = 0
+# At time                  970: odata = xx100100xx010110xx111000xx000100xxxx1001xxxx1000xxxx0100xxxx0010, valid_out = 0
+# At time                  990: odata = xx101101xx001101xx100011xx001001xxxx1000xxxx1111xxxx0100xxxx0001, valid_out = 0
+# At time                 1010: odata = xx001011xx001101xx100110xx001101xxxx1011xxxx1110xxxx0101xxxx0000, valid_out = 0
+# At time                 1030: odata = xx011110xx001001xx100101xx000110xxxx1110xxxx1001xxxx0010xxxx0101, valid_out = 0
+# At time                 1050: odata = xx110010xx101010xx100011xx100001xxxx0111xxxx1000xxxx1000xxxx1101, valid_out = 0
+# ** Note: $finish    : C:/HK6/CE213/3DES/quartus/../DES3/top.v(42)
+#    Time: 1070 ps  Iteration: 2  Instance: /top
+# 1
+# Break in Module top at C:/HK6/CE213/3DES/quartus/../DES3/top.v line 42
+add wave -position insertpoint {sim:/top/des3_inst/encrypt1/key_gen[0]/*}
+# (vish-4014) No objects found matching '/top/des3_inst/encrypt1/key_gen[0]/*'.
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint {sim:/top/des3_inst/encrypt1/key_gen[0]/*}
+# (vish-4014) No objects found matching '/top/des3_inst/encrypt1/key_gen[0]/*'.
+add wave -position insertpoint {sim:/top/des3_inst/encrypt1/key_gen[1]/*}
+# (vish-4014) No objects found matching '/top/des3_inst/encrypt1/key_gen[1]/*'.
