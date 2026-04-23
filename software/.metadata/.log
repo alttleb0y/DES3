@@ -1,0 +1,103 @@
+!SESSION 2026-04-23 16:12:49.424 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.670
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.debug.cdi.gdb.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.670
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.embeddedsw.app_lib.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.670
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.embeddedsw.bsp.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.670
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.embeddedsw.commandline.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.670
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.embeddedsw.flash.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.672
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.embeddedsw.launch.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.672
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.nios2.isa_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.672
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.core_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.672
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.flash.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.672
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.gprof_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.672
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.integration_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.672
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.integration.jars_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.672
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.launch_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.674
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.project_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.674
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.ui_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.674
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.service.eclipse_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.674
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.service.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.674
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.systemconsole_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.674
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.systemconsole.designs.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.674
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.systemconsole.gui.plugin_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.674
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.systemconsole.plugin.elf_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.674
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.systemconsole.plugin.jtag_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.676
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.systemconsole.scripting_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.osgi 4 0 2026-04-23 16:12:49.676
+!MESSAGE Bundle reference:file:/C:/D/Quartus/nios2eds/bin/eclipse_nios2/dropins/com.altera.sbtgui.site/plugins/com.altera.utilities_13.0.1.232.jar@4 not found.
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2026-04-23 16:12:49.789
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: The bundle "org.eclipse.equinox.p2.reconciler.dropins_1.1.100.v20110815-1419 [152]" could not be resolved. Reason: Missing Constraint: Require-Bundle: org.eclipse.equinox.p2.touchpoint.eclipse; bundle-version="1.0.0"
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolverError(AbstractBundle.java:1327)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1311)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:323)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:389)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1131)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-23 16:14:42.896
+!MESSAGE Indexed 'des3_bsp' (77 sources, 104 headers) in 1.40 sec: 2,329 declarations; 3,602 references; 89 unresolved inclusions; 57 syntax errors; 184 unresolved names (3.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-23 16:14:43.879
+!MESSAGE Indexed 'des3' (0 sources, 13 headers) in 0.00 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
