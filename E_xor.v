@@ -1,0 +1,61 @@
+module E_xor (in, K, out);
+	input [31:0] in;
+	input [47:0] K;
+	output [47:0] out;
+	
+	assign out[0]  = in[31] ^ K[0];
+	assign out[1]  = in[0] ^ K[1];
+	assign out[2]  = in[1] ^ K[2];
+	assign out[3]  = in[2] ^ K[3];
+	assign out[4]  = in[3] ^ K[4];
+	assign out[5]  = in[4] ^ K[5];
+
+	assign out[6]  = in[3] ^ K[6];
+	assign out[7]  = in[4] ^ K[7];
+	assign out[8]  = in[5] ^ K[8];
+	assign out[9]  = in[6] ^ K[9];
+	assign out[10] = in[7] ^ K[10];
+	assign out[11] = in[8] ^ K[11];
+
+	assign out[12] = in[7] ^ K[12];
+	assign out[13] = in[8] ^ K[13];
+	assign out[14] = in[9] ^ K[14];
+	assign out[15] = in[10] ^ K[15];
+	assign out[16] = in[11] ^ K[16];
+	assign out[17] = in[12] ^ K[17];
+
+	assign out[18] = in[11] ^ K[18];
+	assign out[19] = in[12] ^ K[19];
+	assign out[20] = in[13] ^ K[20];
+	assign out[21] = in[14] ^ K[21];
+	assign out[22] = in[15] ^ K[22];
+	assign out[23] = in[16] ^ K[23];
+
+	assign out[24] = in[15] ^ K[24];
+	assign out[25] = in[16] ^ K[25];
+	assign out[26] = in[17] ^ K[26];
+	assign out[27] = in[18] ^ K[27];
+	assign out[28] = in[19] ^ K[28];
+	assign out[29] = in[20] ^ K[29];
+
+	assign out[30] = in[19] ^ K[30];
+	assign out[31] = in[20] ^ K[31];
+	assign out[32] = in[21] ^ K[32];
+	assign out[33] = in[22] ^ K[33];
+	assign out[34] = in[23] ^ K[34];
+	assign out[35] = in[24] ^ K[35];
+
+	assign out[36] = in[23] ^ K[36];
+	assign out[37] = in[24] ^ K[37];
+	assign out[38] = in[25] ^ K[38];
+	assign out[39] = in[26] ^ K[39];
+	assign out[40] = in[27] ^ K[40];
+	assign out[41] = in[28] ^ K[41];
+
+	assign out[42] = in[27] ^ K[42];
+	assign out[43] = in[28] ^ K[43];
+	assign out[44] = in[29] ^ K[44];
+	assign out[45] = in[30] ^ K[45];
+	assign out[46] = in[31] ^ K[46];
+	assign out[47] = in[0] ^ K[47];
+endmodule

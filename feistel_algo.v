@@ -14,6 +14,8 @@ module feistel_algo #(
 
     reg [31:0] L [15:0];
     reg [31:0] R [15:0];
+    reg [31:0] L16;
+    reg [31:0] R16;
     reg [17:0] V;
     wire [47:0] K [15:0];
     wire [63:0] ip_out;
@@ -21,7 +23,7 @@ module feistel_algo #(
     wire [31:0] f_out [15:0];
     
     IP ip(.in(idata), .out(ip_out));
-    IP_inv ip_inv(.in({R[15], L[15]}), .out(ip_inv_out));
+    IP_inv ip_inv(.in({R16, L16}), .out(ip_inv_out));
     
     generate
         genvar g;
@@ -37,6 +39,8 @@ module feistel_algo #(
             V[17:0] <= 18'b0;
             odata <= 64'b0;
             valid_out <= 1'b0;
+            L16 <= 32'b0;
+            R16 <= 32'b0;
             for(i = 0; i < 16; i = i + 1) begin : pipeline_reset
                 L[i] <= 32'b0;
                 R[i] <= 32'b0;
@@ -53,8 +57,12 @@ module feistel_algo #(
                 V[i] <= V[i-1];
             end
 
+            L16 <= R[15];
+            R16 <= L[15] ^ f_out[15];
+            V[16] <= V[15];
+
             odata <= ip_inv_out;
-            valid_out <= V[15];
+            valid_out <= V[16];
         end
     end
     

@@ -1,7 +1,6 @@
 module S1 (in, out);
 	input [5:0] in;
 	output reg [3:0] out;
-	
 	always @(*) begin
 		case (in)
 			6'd0 : out = 4'd14;

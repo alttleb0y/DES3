@@ -7,6 +7,6 @@ module f( input [31:0] R, input [47:0] K, output [31:0] out );
     E e (.in(R), .out(exp_out)); 
     assign xored = exp_out ^ K; 
     S s (.in(xored), .out(s_out));
-    S p (.in(s_out), .out(p_out)); 
+    P p (.in(s_out), .out(p_out)); 
     assign out = p_out; 
 endmodule
