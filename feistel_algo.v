@@ -16,10 +16,8 @@ module feistel_algo #(
     reg decrypt1, decrypt2;
     reg V_buf;
     reg [31:0] L_buf, R_buf;
-    reg [31:0] L [15:0];
-    reg [31:0] R [15:0];
-    reg [31:0] L16;
-    reg [31:0] R16;
+    reg [31:0] L [16:0];
+    reg [31:0] R [16:0];
     reg [16:0] V;
     wire [47:0] K [15:0];
     wire [63:0] ip_out;
@@ -27,7 +25,7 @@ module feistel_algo #(
     wire [31:0] f_out [15:0];
     
     IP ip(.in(idata), .out(ip_out));
-    IP_inv ip_inv(.in({R16, L16}), .out(ip_inv_out));
+    IP_inv ip_inv(.in({R[16], L[16]}), .out(ip_inv_out));
 
     key_scheduler #(.ROUND(4'd0)) ks0 (.key_in(key_in1), .decrypt(decrypt1), .K_out(K[0]));
     key_scheduler #(.ROUND(4'd1)) ks1 (.key_in(key_in1), .decrypt(decrypt1), .K_out(K[1]));
@@ -68,22 +66,34 @@ module feistel_algo #(
         if(reset) begin
             V[16:0] <= 17'b0;
             odata <= 64'b0;
-            valid_out <= 1'b0;
-            L16 <= 32'b0;
-            R16 <= 32'b0;
-            for(i = 0; i < 16; i = i + 1) begin : pipeline_reset
-                L[i] <= 32'b0;
-                R[i] <= 32'b0;
-            end
+            valid_out <= 1'b0;            
+            L[0] <= 32'b0; R[0] <= 32'b0;
+            L[0] <= 32'b0; R[0] <= 32'b0;
+            L[1] <= 32'b0; R[1] <= 32'b0;
+            L[2] <= 32'b0; R[2] <= 32'b0;
+            L[3] <= 32'b0; R[3] <= 32'b0;
+            L[4] <= 32'b0; R[4] <= 32'b0;
+            L[5] <= 32'b0; R[5] <= 32'b0;
+            L[6] <= 32'b0; R[6] <= 32'b0;
+            L[7] <= 32'b0; R[7] <= 32'b0;
+            L[8] <= 32'b0; R[8] <= 32'b0;
+            L[9] <= 32'b0; R[9] <= 32'b0;
+            L[10] <= 32'b0; R[10] <= 32'b0;
+            L[11] <= 32'b0; R[11] <= 32'b0;
+            L[12] <= 32'b0; R[12] <= 32'b0;
+            L[13] <= 32'b0; R[13] <= 32'b0;
+            L[14] <= 32'b0; R[14] <= 32'b0;
+            L[15] <= 32'b0; R[15] <= 32'b0;
+            R[16] <= 32'b0; L[16] <= 32'b0;
         end
         else begin
             key_in1 <= key_in;
             key_in2 <= key_in;
             decrypt1 <= decrypt;
             decrypt2 <= decrypt;
-            V_buf        <= valid_in;
-            L_buf        <= ip_out[63:32];
-            R_buf        <= ip_out[31:0];
+            V_buf <= valid_in;
+            L_buf <= ip_out[63:32];
+            R_buf <= ip_out[31:0];
 
             L[0][31:0] <= L_buf;
             R[0][31:0] <= R_buf;
@@ -105,8 +115,8 @@ module feistel_algo #(
             L[14] <= R[13];     R[14] <= L[13]^ f_out[13];      V[14] <= V[13];
             L[15] <= R[14];     R[15] <= L[14]^ f_out[14];      V[15] <= V[14];
 
-            L16 <= R[15];
-            R16 <= L[15] ^ f_out[15];
+            L[16] <= R[15];
+            R[16] <= L[15] ^ f_out[15];
             V[16] <= V[15];
 
             odata <= ip_inv_out;

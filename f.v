@@ -1,4 +1,8 @@
-module f( input [31:0] R, input [47:0] K, output [31:0] out ); 
+module f(R, K, out);
+    input [31:0] R;
+    input [47:0] K;
+    output [31:0] out;
+
     wire [47:0] exp_out; 
     wire [47:0] xored; 
     wire [31:0] s_out; 

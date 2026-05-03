@@ -1,12 +1,12 @@
 module key_scheduler #(
     parameter WIDTH = 64,
-    parameter [3:0] ROUND = 4'd0 // Chuyển state thành parameter
+    parameter [3:0] ROUND = 4'd0
 )(
     input [WIDTH-1:0] key_in,
     input decrypt,
     output [47:0] K_out
 );
-    // 1. Tính toán giá trị shift cố định cho Round này tại thời điểm biên dịch
+
     localparam [4:0] SHIFT_ENC = (ROUND == 0)  ? 5'd1  : (ROUND == 1)  ? 5'd2  :
                                  (ROUND == 2)  ? 5'd4  : (ROUND == 3)  ? 5'd6  :
                                  (ROUND == 4)  ? 5'd8  : (ROUND == 5)  ? 5'd10 :
@@ -25,7 +25,7 @@ module key_scheduler #(
                                  (ROUND == 12) ? 5'd6  : (ROUND == 13) ? 5'd4  :
                                  (ROUND == 14) ? 5'd2  : 5'd1;
 
-    // 2. PC-1: Hoán vị này cố định cho mọi round
+    // PC-1
     wire [27:0] C0, D0;
     assign C0 = {key_in[7],  key_in[15], key_in[23], key_in[31], key_in[39], key_in[47], key_in[55],
                  key_in[63], key_in[6],  key_in[14], key_in[22], key_in[30], key_in[38], key_in[46],
@@ -37,17 +37,14 @@ module key_scheduler #(
                  key_in[50], key_in[58], key_in[3],  key_in[11], key_in[19], key_in[27], key_in[35],
                  key_in[43], key_in[51], key_in[59], key_in[36], key_in[44], key_in[52], key_in[60]};
                  
-    // 3. Thực hiện dịch bit (Hard-wired)
-    // Vì SHIFT_ENC/DEC là hằng số, phép dịch này KHÔNG TỐN LOGIC (chỉ nối dây)
     wire [27:0] Cn_enc = (C0 << SHIFT_ENC) | (C0 >> (28 - SHIFT_ENC));
     wire [27:0] Dn_enc = (D0 << SHIFT_ENC) | (D0 >> (28 - SHIFT_ENC));
     wire [27:0] Cn_dec = (C0 << SHIFT_DEC) | (C0 >> (28 - SHIFT_DEC));
     wire [27:0] Dn_dec = (D0 << SHIFT_DEC) | (D0 >> (28 - SHIFT_DEC));
 
-    // Chọn kết quả dựa trên tín hiệu decrypt (Chỉ tốn 1 MUX 2:1 cực nhanh)
     wire [55:0] CD = decrypt ? {Cn_dec, Dn_dec} : {Cn_enc, Dn_enc};
 
-    // 4. PC-2: Hoán vị nén (Hard-wired)
+    // PC-2
     assign K_out = {
         CD[42], CD[39], CD[45], CD[32], CD[55], CD[51],
         CD[53], CD[28], CD[41], CD[50], CD[35], CD[46],

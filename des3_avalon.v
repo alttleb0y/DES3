@@ -8,10 +8,10 @@
 //   0x5 : key2_hi    [63:32]  (R/W)
 //   0x6 : key3_lo    [31:0]   (R/W)
 //   0x7 : key3_hi    [63:32]  (R/W)
-//   0x8 : control    [0]      (R/W) â€” write 1 to pulse valid_in 1 cycle
+//   0x8 : control    [0]      (R/W) write 1 to pulse valid_in 1 cycle
 //   0x9 : odata_lo   [31:0]   (R)
 //   0xA : odata_hi   [63:32]  (R)
-//   0xB : status     [0]      (R) â€” valid_out (latched, clears on read)
+//   0xB : status     [0]      (R) valid_out (latched, clears on read)
 
 module des3_avalon #(
     parameter WIDTH = 64
@@ -19,7 +19,6 @@ module des3_avalon #(
     input  wire        clk,
     input  wire        reset,
 
-    // Avalon-MM Slave
     input  wire [3:0]  avs_address,
     input  wire        avs_write,
     input  wire [31:0] avs_writedata,
@@ -49,8 +48,8 @@ module des3_avalon #(
         .odata    (odata),
         .valid_out(valid_out)
     );
-
-    // Write logic + latch valid_out and odata
+	 
+	 // Write logic
     always @(posedge clk or posedge reset) begin
         if (reset) begin
             reg_idata     <= 64'b0;
@@ -82,14 +81,13 @@ module des3_avalon #(
                     4'h5: reg_key2[63:32]  <= avs_writedata;
                     4'h6: reg_key3[31:0]   <= avs_writedata;
                     4'h7: reg_key3[63:32]  <= avs_writedata;
-                    //4'h8: reg_valid_in     <= avs_writedata[0];
                     default: ;
                 endcase
             end
         end
     end
 
-    // Read logic â€” all registers readable for debug
+    // Read logic
     always @(*) begin
         case (avs_address)
             4'h0:    avs_readdata = reg_idata[31:0];
