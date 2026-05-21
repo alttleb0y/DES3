@@ -2,11 +2,12 @@ module key_scheduler #(
     parameter WIDTH = 64,
     parameter [3:0] ROUND = 4'd0
 )(
-    input [WIDTH-1:0] key_in,
-    input decrypt,
-    output [47:0] K_out
+    key_in, decrypt, K_out
 );
-
+    input [WIDTH-1:0] key_in;
+    input decrypt;
+    output [47:0] K_out;
+    
     localparam [4:0] SHIFT_ENC = (ROUND == 0)  ? 5'd1  : (ROUND == 1)  ? 5'd2  :
                                  (ROUND == 2)  ? 5'd4  : (ROUND == 3)  ? 5'd6  :
                                  (ROUND == 4)  ? 5'd8  : (ROUND == 5)  ? 5'd10 :

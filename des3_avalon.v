@@ -8,7 +8,8 @@
 //   0x5 : key2_hi    [63:32]  (R/W)
 //   0x6 : key3_lo    [31:0]   (R/W)
 //   0x7 : key3_hi    [63:32]  (R/W)
-//   0x8 : control    [0]      (R/W) write 1 to pulse valid_in 1 cycle
+//   0x8 : control    [0]      (W) write 1 to pulse valid_in 1 cycle
+//                    [1]      (R/W) decrypt mode: 0=encrypt, 1=decrypt
 //   0x9 : odata_lo   [31:0]   (R)
 //   0xA : odata_hi   [63:32]  (R)
 //   0xB : status     [0]      (R) valid_out (latched, clears on read)
@@ -29,6 +30,7 @@ module des3_avalon #(
     reg [63:0] reg_key1;
     reg [63:0] reg_key2;
     reg [63:0] reg_key3;
+    reg        reg_decrypt;
     reg        reg_valid_in;
 
     reg [63:0] reg_odata;
@@ -44,6 +46,7 @@ module des3_avalon #(
         .key1     (reg_key1),
         .key2     (reg_key2),
         .key3     (reg_key3),
+        .decrypt  (reg_decrypt),
         .valid_in (reg_valid_in),
         .odata    (odata),
         .valid_out(valid_out)
@@ -56,6 +59,7 @@ module des3_avalon #(
             reg_key1      <= 64'b0;
             reg_key2      <= 64'b0;
             reg_key3      <= 64'b0;
+            reg_decrypt   <= 1'b0;
             reg_valid_in  <= 1'b0;
             reg_odata     <= 64'b0;
             reg_valid_out <= 1'b0;
@@ -66,10 +70,13 @@ module des3_avalon #(
                 reg_valid_out <= 1'b1;
             end
 				
-            if (avs_write && avs_address == 4'h8)
+            if (avs_write && avs_address == 4'h8) begin
                 reg_valid_in <= avs_writedata[0];
-            else
+                reg_decrypt  <= avs_writedata[1];
+            end
+            else begin
                 reg_valid_in <= 1'b0;
+            end
 					 
             if (avs_write) begin
                 case (avs_address)
@@ -98,7 +105,7 @@ module des3_avalon #(
             4'h5:    avs_readdata = reg_key2[63:32];
             4'h6:    avs_readdata = reg_key3[31:0];
             4'h7:    avs_readdata = reg_key3[63:32];
-            4'h8:    avs_readdata = {31'b0, reg_valid_in};
+            4'h8:    avs_readdata = {30'b0, reg_decrypt, reg_valid_in};
             4'h9:    avs_readdata = reg_odata[31:0];
             4'hA:    avs_readdata = reg_odata[63:32];
             4'hB:    avs_readdata = {31'b0, reg_valid_out};
